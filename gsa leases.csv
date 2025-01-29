@@ -1,0 +1,53 @@
+location_code,property_name,address,city,zipcode,latitude,longitude,coordinates,building_rentable_sf,available_sf,congressional_district_rep,lease_number,lease_effective_date,lease_expiration_date,category
+CA5468,Northgate Industrial Park,631 N Market Blvd,Sacramento,95834,38.64852,-121.47741,"38.64852, -121.47741","9,600",-,AMI BERA,LCA03250,2015-07-01,2025-06-30,Expiring in the next four years
+CA8430,Creekside Business Park,11661 Blocker Dr,Auburn,95603,38.9022923,-121.08319,"38.9022923, -121.08319","4,331",-,KEVIN KILEY,LCA03085,2015-08-01,2025-07-31,Expiring in the next four years
+CA8131,Point West Corporate Center,1610 Arden Way,Sacramento,95815,38.59876,-121.42857,"38.59876, -121.42857","26,966",-,AMI BERA,LCA02150,2011-01-03,2026-01-02,Expiring in the next four years
+CA7165,11885 Edgewood Rd.,11885 Edgewood Rd,Auburn,95603,38.920414,-121.08296,"38.920414, -121.08296","7,291",-,KEVIN KILEY,LCA02395,2011-05-21,2026-05-20,Expiring in the next four years
+CA6924,9701 Dino Drive,9701 Dino Dr,Elk Grove,95624,38.4021,-121.35369,"38.4021, -121.35369","3,517",-,DORIS MATSUI,LCA03001,2016-08-01,2026-07-31,Expiring in the next four years
+CA8192,Sacramento Int'L Jet Center,5885 Flightline Cir,Sacramento,95837,38.6823679,-121.59604,"38.6823679, -121.59604","9,531",-,AMI BERA,LCA02390,2011-05-01,2026-09-30,Expiring in the next four years
+CA8418,2365 Iron Point Road,2365 Iron Point Rd,Folsom,95630,38.64468,-121.12598,"38.64468, -121.12598","5,580",-,KEVIN KILEY,LCA03160,2013-11-22,2026-11-21,Expiring in the next four years
+CA8360,Cannon Building - Woodland,221 W Court St,Woodland,95695,38.67854,-121.79427,"38.67854, -121.79427","5,240",-,MIKE THOMPSON,LCA02694,2011-12-01,2026-11-30,Expiring in the next four years
+CA8388,22830 Foresthill Road,22830 Foresthill Rd,Foresthill,95631,39.010428,-120.84532,"39.010428, -120.84532","6,830",-,KEVIN KILEY,LCA03002,2013-12-01,2026-11-30,Expiring in the next four years
+CA8252,The Cannery,1651 Alhambra Blvd,Sacramento,95816,38.5655646,-121.46828,"38.5655646, -121.46828","26,615",-,DORIS MATSUI,LCA02386,2011-12-17,2026-12-16,Expiring in the next four years
+CA8191,Laguna Pointe Office,9245 Laguna Springs Dr,Elk Grove,95758,38.42267,-121.3965,"38.42267, -121.3965","3,223",-,DORIS MATSUI,LCA02388,2011-01-10,2027-01-09,Expiring in the next four years
+CA7175,1540 Tanforan Avenue,1540 Tanforan Ave,Woodland,95776,38.69465,-121.74972,"38.69465, -121.74972","7,200",-,MIKE THOMPSON,LCA02507,2011-06-01,2027-05-31,Expiring in the next four years
+CA6139,North Pointe Corporate Center,4330 Watt Ave,Sacramento,95821,38.6437353,-121.38309,"38.6437353, -121.38309","89,440","1,593",AMI BERA,LCA02353,2011-06-01,2027-06-27,Expiring in the next four years
+CA8084,Building 600,3720 Dudley Blvd,Mcclellan,95652,38.64602,-121.40743,"38.64602, -121.40743","34,186",-,AMI BERA,LCA03284,2013-11-21,2027-09-06,Expiring in the next four years
+CA7904,SSA District Office,8581 Folsom Blvd,Sacramento,95826,38.54969,-121.38741,"38.54969, -121.38741","37,000",-,DORIS MATSUI,LCA02003,2008-09-25,2027-09-24,Expiring in the next four years
+CA8356,2424 Arden,2424 Arden Way,Sacramento,95825,38.59587,-121.40303,"38.59587, -121.40303","17,265",-,AMI BERA,LCA02815,2013-02-11,2028-02-10,Expiring in the next four years
+CA6426,"1325 ""J"" Street",1325 J St,Sacramento,95814,38.57928,-121.48828,"38.57928, -121.48828","243,510",-,DORIS MATSUI,LCA02410,2010-01-01,2028-05-31,Expiring in the next four years
+CA7484,Sacramento Airport,6940 Airport Blvd,Sacramento,95837,38.6929475,-121.59287,"38.6929475, -121.59287","4,805",-,AMI BERA,LCA03025,2012-07-01,2028-06-30,Expiring in the next four years
+CA6918,Prospect Park West,3046 Prospect Park Dr,Rancho Cordova,95670,38.5915887,-121.27642,"38.5915887, -121.27642","39,313","18,414",AMI BERA,LCA00208,2018-10-01,2028-09-30,Expiring in the next four years
+CA8310,Ssa Office Placerville,3916 Missouri Flat Rd,Placerville,95667,38.71294,-120.84328,"38.71294, -120.84328","8,554",-,TOM MCCLINTOCK,LCA02830,2013-10-04,2028-10-03,Expiring in the next four years
+CA7429,Citrus Heights,6501 Sylvan Rd,Citrus Heights,95610,38.68326,-121.29158,"38.68326, -121.29158","79,163",-,AMI BERA,LCA00269,2018-12-19,2028-12-18,Expiring in the next four years
+CA4515,Brinley Bldg Terrace,609 2nd St,Davis,95616,38.543481,-121.74076,"38.543481, -121.74076","11,180",-,MIKE THOMPSON,LCA03188,2014-07-01,2029-06-30,Not expiring in the next four years
+CA6426,"1325 ""J"" Street",1325 J St,Sacramento,95814,38.57928,-121.48828,"38.57928, -121.48828","243,510",-,DORIS MATSUI,LCA00843,2020-06-01,2030-05-31,Not expiring in the next four years
+CA8476,2400 Lindbergh Street,2400 Lindbergh St,Auburn,95602,38.952492,-121.08273,"38.952492, -121.08273","1,228","1,228",KEVIN KILEY,LCA00838,2020-08-01,2030-07-31,Not expiring in the next four years
+CA6823,1380 Lead Hill Rd,1380 Lead Hill Blvd,Roseville,95661,38.74882,-121.26031,"38.74882, -121.26031","3,446",-,KEVIN KILEY,LCA00412,2020-09-01,2030-08-31,Not expiring in the next four years
+CA6445,2880 Sunrise Blvd.,2880 Sunrise Blvd,Rancho Cordova,95742,38.59934,-121.2666,"38.59934, -121.2666","12,885",-,AMI BERA,LCA00914,2020-11-01,2030-10-31,Not expiring in the next four years
+CA7698,10365 Old Placerville Road,10365 Old Placerville Rd,Sacramento,95827,38.56754,-121.30772,"38.56754, -121.30772","10,340",-,AMI BERA,LCA00671,2020-12-01,2030-11-30,Not expiring in the next four years
+CA8488,"Mcclellan Park, Building 640, Suite 300",4242 Forcum Ave,Mcclellan,95652,38.644425,-121.40506,"38.644425, -121.40506","16,533",-,AMI BERA,LCA00957,2021-04-01,2031-03-31,Not expiring in the next four years
+CA8276,Broadstone Park Prof Center,1835 Iron Point Rd,Folsom,95630,38.643687,-121.14629,"38.643687, -121.14629","1,330","1,330",KEVIN KILEY,LCA01005,2021-04-01,2031-03-31,Not expiring in the next four years
+CA6728,3419 Arden Way,3419 Arden Way,Sacramento,95825,38.59768,-121.38478,"38.59768, -121.38478","11,567",-,AMI BERA,LCA00847,2021-08-01,2031-07-31,Not expiring in the next four years
+CA7690,825 Riverside Parkway,825 Riverside Pkwy,West Sacramento,95605,38.59064,-121.56348,"38.59064, -121.56348","9,455",-,DORIS MATSUI,LCA03432,2016-08-08,2031-08-07,Not expiring in the next four years
+CA8084,Building 600,3720 Dudley Blvd,Mcclellan,95652,38.64602,-121.40743,"38.64602, -121.40743","34,186",-,AMI BERA,LCA00697,2021-10-01,2031-09-30,Not expiring in the next four years
+CA8300,4540 Duckhorn Drive,4540 Duckhorn Dr,Sacramento,95834,38.6536,-121.53349,"38.6536, -121.53349","12,749",-,AMI BERA,LCA00993,2022-01-27,2032-01-26,Not expiring in the next four years
+CA8400,5822 Price Avenue,5822 Price Ave,Mcclellan,95652,38.67313,-121.39244,"38.67313, -121.39244","2,640",-,AMI BERA,LCA02404,2024-03-01,2032-02-29,Not expiring in the next four years
+CA7079,5th & G Street,430 G St,Davis,95616,38.54726,-121.73932,"38.54726, -121.73932","58,284","8,086",MIKE THOMPSON,LCA00012,2017-09-01,2032-08-31,Not expiring in the next four years
+CA7641,910 Cirby Way,910 Cirby Way,Roseville,95661,38.7294657,-121.27631,"38.7294657, -121.27631","23,290",-,KEVIN KILEY,LCA00291,2018-04-04,2033-04-03,Not expiring in the next four years
+CA7518,4328 Watt Ave,4328 Watt Ave,Sacramento,95821,38.642769,-121.38208,"38.642769, -121.38208","37,975",-,AMI BERA,LCA00325,2018-05-23,2033-05-22,Not expiring in the next four years
+CA8331,4235 54Th Street,4235 54th St,Mcclellan,95652,38.6433,-121.40872,"38.6433, -121.40872","30,000",-,AMI BERA,LCA02856,2013-07-03,2033-07-02,Not expiring in the next four years
+CA7524,Oakpoint Building LLC,4420 Auburn Blvd,Sacramento,95841,38.64729,-121.3601,"38.64729, -121.3601","16,175",-,AMI BERA,LCA00384,2018-07-30,2033-07-29,Not expiring in the next four years
+CA6947,40 Massie Circle,40 Massie Ct,Sacramento,95823,38.476503,-121.42292,"38.476503, -121.42292","15,629","15,131",DORIS MATSUI,LCA01449,2024-01-10,2034-01-09,Not expiring in the next four years
+CA8084,Building 600,3720 Dudley Blvd,Mcclellan,95652,38.64602,-121.40743,"38.64602, -121.40743","34,186",-,AMI BERA,LCA00746,2024-07-17,2034-07-16,Not expiring in the next four years
+CA7641,910 Cirby Way,910 Cirby Way,Roseville,95661,38.7294657,-121.27631,"38.7294657, -121.27631","23,290",-,KEVIN KILEY,LCA00292,2020-06-01,2035-05-31,Not expiring in the next four years
+CA6263,El Camino Plaza,2435 Albatross Way,Sacramento,95815,38.610189,-121.4240896,"38.610189, -121.4240896","2,980",-,AMI BERA,LCA00464,2021-01-25,2036-01-24,Not expiring in the next four years
+CA8482,3115 Ramco Street,3115 Ramco St,West Sacramento,95691,38.5458964,-121.56283,"38.5458964, -121.56283","21,898",-,DORIS MATSUI,LCA00738,2021-03-01,2036-02-29,Not expiring in the next four years
+CA8013,Sacramento FBI,2001 Freedom Way,Roseville,95678,38.792466,-121.30123,"38.792466, -121.30123","127,434",-,KEVIN KILEY,LCA03197,2016-09-01,2036-08-31,Not expiring in the next four years
+CA8192,Sacramento Int'L Jet Center,5885 Flightline Cir,Sacramento,95837,38.6823679,-121.59604,"38.6823679, -121.59604","9,531",-,AMI BERA,LCA01040,2021-10-01,2036-09-30,Not expiring in the next four years
+CA8354,Vanir Building,4090 Truxel Rd,Sacramento,95834,38.64452,-121.50792,"38.64452, -121.50792","9,211",-,AMI BERA,LCA01655,2022-07-27,2037-07-26,Not expiring in the next four years
+CA7060,Creekside Business Park LLC,11641 Blocker Dr,Auburn,95603,38.90346,-121.08475,"38.90346, -121.08475","4,796",-,KEVIN KILEY,LCA02165,2022-09-04,2037-09-03,Not expiring in the next four years
+CA7580,Mccellan AFB,4601 Lang Ave,Mcclellan,95652,38.65136,-121.42258,"38.65136, -121.42258","11,229",-,AMI BERA,LCA00739,2022-10-01,2037-09-30,Not expiring in the next four years
+CA8379,Building 1040,5622 Price Ave,Mcclellan,95652,38.66923,-121.39244,"38.66923, -121.39244","6,798",-,AMI BERA,LCA02389,2023-01-03,2038-01-02,Not expiring in the next four years
+CA6918,Prospect Park West,3046 Prospect Park Dr,Rancho Cordova,95670,38.5915887,-121.27642,"38.5915887, -121.27642","39,313","18,414",AMI BERA,LCA00886,2023-05-15,2038-05-14,Not expiring in the next four years
+CA6426,"1325 ""J"" Street",1325 J St,Sacramento,95814,38.57928,-121.48828,"38.57928, -121.48828","243,510",-,DORIS MATSUI,LCA00466,2022-11-18,2042-11-17,Not expiring in the next four years

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>GSA leased properties in Sacramento area</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .map-overlay {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        border-radius: 3px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      }
+
+      .legend-key {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+        border-radius: 3px;
+      }
+
+      #resetButton {
+        position: absolute;
+        top: 100px;
+        right: 10px;
+        background: #ffffff;
+        padding: 7px;
+        border-radius: 5px;
+        border: 1.2px solid #9c9c9c;
+        cursor: pointer;
+        z-index: 1;
+        font-size: 12px;
+        width: ;
+        color: #616161;
+      }
+
+
+/*      #data-credit {
+        position: absolute;
+        bottom: 30px;
+        left: 10px;s
+        background: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        border-radius: 3px;
+      }*/
+    </style>
+  </head>
+
+  <body>
+    <div id="map"></div>
+
+    <button id="resetButton">Reset</button>
+
+    <div class="map-overlay" id="legend">
+      <div>
+        <span class="legend-key" style="background-color: #f25a5a;"></span>
+        Leases expiring in the next four years
+      </div>
+      <div>
+        <span class="legend-key" style="background-color: #655e43;"></span>
+        Leases with longer terms
+      </div>
+    </div>
+
+<!--     <div id="data-credit">
+      <p>
+        Data Credit: Sacramento Business Journal research
+      </p>
+    </div> -->
+
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoibWVuZ3l1YW5kb25nIiwiYSI6ImNtMDVtemowYzBtczQyaW9vb2hkZ3hmY20ifQ.0_OelpvD8lrbwMN3nfzJqw';
+      const map = new mapboxgl.Map({
+        container: 'map', // Specify the container ID
+        style:
+          'mapbox://styles/mengyuandong/cm5bmmczp00qy01rjbd3n8tzy', // Specify which map style to use
+        center: [-121.304, 38.681], // Specify the starting position [lng, lat]
+        zoom: 8.96 // Specify the starting zoom
+      });
+
+      // Add zoom and rotation controls to the map.
+      map.addControl(new mapboxgl.NavigationControl());
+
+
+      // Get the reset button element
+      const resetButton = document.getElementById('resetButton');
+
+      // Set the default view coordinates and zoom level
+      const defaultCenter = [-121.173, 38.681];
+      const defaultZoom = 8.96;
+      const defaultPitch = 0; // no tilt
+      const defaultBearing = 0; // no rotation
+
+      // Add event listener to reset button
+      resetButton.addEventListener('click', () => {
+        map.flyTo({
+          center: defaultCenter,
+          zoom: defaultZoom,
+          pitch: defaultPitch,
+          bearing: defaultBearing,
+          essential: true, // This ensures that the animation is not interrupted
+        });
+      });
+
+      // Add popup for leases
+      map.on('click', function (e) {
+        var features = map.queryRenderedFeatures(e.point, {
+          layers: ['gsa-leases-0q2oyc'] // Update to match the layer ID in your Mapbox style
+        });
+
+        if (!features.length) {
+          return;
+        }
+
+        var feature = features[0];
+
+        new mapboxgl.Popup({ offset: [0, -15] })
+          .setLngLat(feature.geometry.coordinates)
+          .setHTML(
+            '<b>Property/asset mame: </b>' +
+              feature.properties.property_name +
+              '<br><b>Address: </b>' +
+              feature.properties.address +
+              '<br><b>City </b>' +
+              feature.properties.city +
+              '<br><b>Lease effective date: </b>' +
+              feature.properties.lease_effective_date +
+              '<br><b>Lease expiration date: </b>' +
+              feature.properties.lease_expiration_date
+          )
+          .addTo(map);
+      });
+ 
+    </script>
+  </body>
+</html>
