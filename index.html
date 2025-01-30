@@ -84,7 +84,7 @@
     <div class="map-overlay" id="legend">
       <div>
         <span class="legend-key" style="background-color: #f25a5a;"></span>
-        Leases expiring in the next four years
+        Leases expiring by 2028
       </div>
       <div>
         <span class="legend-key" style="background-color: #655e43;"></span>
@@ -104,9 +104,9 @@
         container: 'map', // Specify the container ID
         style:
           'mapbox://styles/mengyuandong/cm5bmmczp00qy01rjbd3n8tzy', // Specify which map style to use
-        center: [-121.304, 38.681], // Specify the starting position [lng, lat]
-        zoom: 8.5, // Specify the starting zoom
-        minZoom: 8.45,
+        center: [-121.232, 38.661], // Specify the starting position [lng, lat]
+        zoom: 8.50, // Specify the starting zoom
+        minZoom: 8.50,
         maxBounds: [
            [-122.27781353784687, 38.30575004971624], // Southwest corner [lng, lat]
            [-120.2545346507927, 39.172204726565674]  // Northeast corner [lng, lat]
@@ -121,8 +121,8 @@
       const resetButton = document.getElementById('resetButton');
 
       // Set the default view coordinates and zoom level
-      const defaultCenter = [-121.304, 38.681];
-      const defaultZoom = 8.96;
+      const defaultCenter = [-121.232, 38.661];
+      const defaultZoom = 8.50;
       const defaultPitch = 0; // no tilt
       const defaultBearing = 0; // no rotation
 
